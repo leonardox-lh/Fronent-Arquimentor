@@ -14,16 +14,12 @@ import {MatGridListModule} from "@angular/material/grid-list";
 import {MatCardModule} from "@angular/material/card";
 import {MatMenuModule} from "@angular/material/menu";
 import {NgOptimizedImage} from "@angular/common";
-import { MainContentComponent } from './news/components/main-content/main-content.component';
-import { NavComponent } from './news/components/nav/nav.component';
-import { FooterContentComponent } from './news/components/footer-content/footer-content.component';
-
+import { HeaderContentComponent } from './Arquimentor/components/header-content/header-content.component';
+import {RouterOutlet} from "@angular/router";
 @NgModule({
   declarations: [
     AppComponent,
-    MainContentComponent,
-    NavComponent,
-    FooterContentComponent
+    HeaderContentComponent
   ],
   imports: [
     BrowserModule,
@@ -39,6 +35,7 @@ import { FooterContentComponent } from './news/components/footer-content/footer-
     MatCardModule,
     MatMenuModule,
     NgOptimizedImage,
+    RouterOutlet,
   ],
   bootstrap: [AppComponent]
 })
