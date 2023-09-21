@@ -19,7 +19,7 @@ import {RouterOutlet} from "@angular/router";
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderContentComponent
+    HeaderContentComponent,
   ],
   imports: [
     BrowserModule,
